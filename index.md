@@ -15,7 +15,7 @@ Bild in HTML Sytanx
 
 
 Code Beispiel:
-``` pascal
+```pascal
 //Deklaration
 PROGRAM POU
 VAR
@@ -29,4 +29,21 @@ IF Count_up = TRUE THEN
 	myInt := myInt + 1;
 END_IF
 ```
+
+
+```ReStructered
+//Deklaration
+PROGRAM POU
+VAR
+	myInt : BYTE := 5;
+	Count_up : BOOL;
+	newVar: BYTE;
+END_VAR
+
+//Integration
+IF Count_up = TRUE THEN
+	myInt := myInt + 1;
+END_IF
+```
+
 
