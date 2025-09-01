@@ -6,4 +6,21 @@ Bild mit Markdown Syntax
 
 Bild in HTML Sytanx
 
-<img width="853" height="524" alt="Reifegradskale Stufen 1-6, Auswahl auf 4" src="https://github.com/user-attachments/assets/6b628874-01c1-43e6-b008-a9b913ef66d6" />
+<img width="300" height="200" alt="Reifegradskale Stufen 1-6, Auswahl auf 4" src="https://github.com/user-attachments/assets/6b628874-01c1-43e6-b008-a9b913ef66d6" />
+
+
+Code Beispiel:
+``` pascal
+//Deklaration
+PROGRAM POU
+VAR
+	myInt : BYTE := 5;
+	Count_up : BOOL;
+	newVar: BYTE;
+END_VAR
+
+//Integration
+IF Count_up = TRUE THEN
+	myInt := myInt + 1;
+END_IF
+```
